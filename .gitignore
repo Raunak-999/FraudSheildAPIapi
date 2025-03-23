@@ -17,16 +17,11 @@ env/
 .idea/
 
 # Model files
-*.pkl
+!model.pkl
+!scaler.pkl
+!encoders.pkl
+!amount_bounds.pkl
+!optimal_threshold.pkl
 
-# Temporary files
-check_columns.py
-check_data.py
-count_predictions.py
-data/
-feature_names.txt
-process_test_data.py
-verify_submission.py
-fraud_detection.py
-fraud_detection_submission.csv
-train_model.py
+# Logs
+*.log
